@@ -3,5 +3,9 @@
     width: 100%;
     height: 70px;
     background-color: darkblue;
+    position: fixed;
+    top: 0;
+    // set the z-index higher than other pages so topbar is always visible
+    z-index: 2;
 
 }
