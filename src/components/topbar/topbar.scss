@@ -55,9 +55,34 @@
                     width: 100%;
                     height: 3px;
                     background-color: $maincolor;
+                    
+                    //this will make the line rotate from the left side instead of the center, making the 'X'.
+                    transform-origin: left;
+                    
+                    transition: all 2s ease;
                 }
             }
         }
     }
 
+    &.active{
+        background-color: $maincolor;
+        color: white;
+
+        .hamburger{
+            span{
+                &:first-child{
+                    background-color: white;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:last-child{
+                    background-color: white;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+    }
 }
