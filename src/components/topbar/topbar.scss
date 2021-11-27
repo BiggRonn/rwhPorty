@@ -9,7 +9,8 @@
     position: fixed;
     top: 0;
     // set the z-index higher than other pages so header is always visible
-    z-index: 2;
+    z-index: 3;
+    transition: all 1s ease;
 
     .wrapper{
         margin: 10px 30px;
