@@ -6,7 +6,7 @@ export default function topbar() {
         <div className= "topbar">
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">Ronald Wes Howard II </a>
+                    <a href="#intro" className="logo">Wes Howard</a>
                     <div className="itemContainer">
                         <a href="https://github.com/BiggRonn" target="_blank" rel="noreferrer" class='fa fa-github'>Github</a>
                         
@@ -17,7 +17,12 @@ export default function topbar() {
                 </div>
                
                 <div className="right">
-                    <a href="#contact">RIGHTRIGHT</a>
+                    
+                    <div className="hamburger">
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
+                    </div>
 
                 </div>
             </div>

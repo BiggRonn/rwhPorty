@@ -4,10 +4,11 @@
 
     width: 100%;
     height: 70px;
-    background-color: $maincolor;
+    background-color: white;
+    color: $maincolor;
     position: fixed;
     top: 0;
-    // set the z-index higher than other pages so topbar is always visible
+    // set the z-index higher than other pages so header is always visible
     z-index: 2;
 
     .wrapper{
@@ -22,20 +23,39 @@
 
             .logo{
 
-                font-size: 30px;
+                font-size: 2rem;
                 font-weight: 800;
                 // will get rid of underline and any other default stylings
                 text-decoration: none;
                 //will inherit color properties of parent
                 color: inherit;
-                margin-right: 40px;
+                margin-right: 2.5rem;
             }
 
             .itemContainer{
                 display: flex;
                 align-items: center;
-                margin-right: 30px;
+                margin-right: 2.5rem;
                 
+            }
+        }
+
+        .right{
+
+            
+            .hamburger{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color: $maincolor;
+                }
             }
         }
     }
