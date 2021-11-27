@@ -5,7 +5,7 @@
             width: 100%;
             // the container will always be 100% of the view height, minus 70px for the header. We then position the sections 70px from the top. 
             height: calc(100vh - 70px);
-            background-color: rgb(235, 51, 210);
+            background-color: darkslateblue;
             position: relative;
             top: 70px;
             scroll-behavior: smooth;

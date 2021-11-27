@@ -10,4 +10,34 @@
     // set the z-index higher than other pages so topbar is always visible
     z-index: 2;
 
+    .wrapper{
+        margin: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            display: flex;
+            align-items: center;
+
+            .logo{
+
+                font-size: 30px;
+                font-weight: 800;
+                // will get rid of underline and any other default stylings
+                text-decoration: none;
+                //will inherit color properties of parent
+                color: inherit;
+                margin-right: 40px;
+            }
+
+            .itemContainer{
+                display: flex;
+                align-items: center;
+                margin-right: 30px;
+                
+            }
+        }
+    }
+
 }
