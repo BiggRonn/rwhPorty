@@ -4,7 +4,7 @@
 
     width: 100%;
     height: 70px;
-    background-color: white;
+    background-color: $accent3;
     color: $maincolor;
     position: fixed;
     top: 0;
@@ -68,19 +68,25 @@
 
     &.active{
         background-color: $maincolor;
-        color: white;
+        color: $accent3;
+
+        .itemContainer{
+            a{
+                color: $accent3;
+            }
+        }
 
         .hamburger{
             span{
                 &:first-child{
-                    background-color: white;
+                    background-color: $accent3;
                     transform: rotate(45deg);
                 }
                 &:nth-child(2){
                     opacity: 0;
                 }
                 &:last-child{
-                    background-color: white;
+                    background-color: $accent3;
                     transform: rotate(-45deg);
                 }
             }
