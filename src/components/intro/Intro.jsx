@@ -21,7 +21,7 @@ export default function Intro() {
                 </div>
 
                 <a href="#portfolio">
-                    <KeyboardArrowDownIcon fontSize="large"/>
+                    <KeyboardArrowDownIcon fontSize="large" class="downArrow"/>
                 </a>
 
             </div>
