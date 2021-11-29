@@ -31,6 +31,10 @@
                 //will inherit color properties of parent
                 color: inherit;
                 margin-right: 2.5rem;
+
+                @include mobile{
+                    font-size: 1.5rem;
+                }
             }
 
             .itemContainer{
@@ -38,9 +42,20 @@
                 align-items: center;
                 margin-right: 2.5rem;
                 
+                
                 a{
+                    overflow: hidden;
+                    text-decoration: none;
 
                     transition: all 1s ease;
+
+                    span{
+                        height: 100%;
+                        @include mobile{
+                            display: none;
+                        }
+
+                    }
                 }
                 
             }

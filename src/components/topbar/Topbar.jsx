@@ -9,11 +9,11 @@ export default function Topbar( {menuOpen, setMenuOpen} ) {
                 <div className="left">
                     <a href="#intro" className="logo">Wes Howard</a>
                     <div className="itemContainer">
-                        <a href="https://github.com/BiggRonn" target="_blank" rel="noreferrer" class='fa fa-github'>Github</a>
+                        <a href="https://github.com/BiggRonn" target="_blank" rel="noreferrer" class='fa fa-github' fontSize="large"><span>Github</span></a>
                         
                     </div>
                     <div className="itemContainer">
-                        <a href="https://www.linkedin.com/in/ronaldweshoward/" target="_blank" rel="noreferrer" class='fa fa-linkedin-square'>LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/ronaldweshoward/" target="_blank" rel="noreferrer" class='fa fa-linkedin-square'><span>LinkedIn</span></a>
                     </div>
                 </div>
                

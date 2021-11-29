@@ -89,10 +89,16 @@
             position: absolute;
             bottom: 0.75rem;
 
+            
+
             .downArrow{
                 width: 8rem;
                 height: 8rem;
                 color: $maincolor;
+
+                @include mobile{
+                    display: none;
+                }
             }
         }
     }
