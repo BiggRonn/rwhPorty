@@ -5,7 +5,7 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
-                <li>Featured</li>
+                <li className= "active">Featured</li>
                 <li>React</li>
                 <li>Web Apps</li>
                 <li>Backend Projects</li>
@@ -13,7 +13,23 @@ export default function Portfolio() {
             </ul>
            <div className="container">
                <div className="item">
-                   <img src="" alt="" />
+                   <img src="assets\Professional Picture.jpg" alt="" />
+                   <h3>Dude, Where's My Charger?</h3>
+               </div>
+               <div className="item">
+                   <img src="assets\Professional Picture.jpg" alt="" />
+                   <h3>Dude, Where's My Charger?</h3>
+               </div>
+               <div className="item">
+                   <img src="assets\Professional Picture.jpg" alt="" />
+                   <h3>Dude, Where's My Charger?</h3>
+               </div>
+               <div className="item">
+                   <img src="assets\Professional Picture.jpg" alt="" />
+                   <h3>Dude, Where's My Charger?</h3>
+               </div>
+               <div className="item">
+                   <img src="assets\Professional Picture.jpg" alt="" />
                    <h3>Dude, Where's My Charger?</h3>
                </div>
            </div>
