@@ -20,6 +20,29 @@
         overflow-x: hidden;
       }
     </style>
+    <script>
+    // Import the functions you need from the SDKs you need 
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+    
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDfPlClBSaRkCkxCKbCBGcJv9GfVCQ3Ohg",
+      authDomain: "rwhportfolio.firebaseapp.com",
+      projectId: "rwhportfolio",
+      storageBucket: "rwhportfolio.appspot.com",
+      messagingSenderId: "287343354997",
+      appId: "1:287343354997:web:cd5d1ffb63fd9c436e043c",
+      measurementId: "G-F2Z4W5FD8F"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
