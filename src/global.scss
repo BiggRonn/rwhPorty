@@ -6,5 +6,11 @@ $accent4: #6D6D6D;
 $accent5: #323232;
 
 
+$width: 768px;
 
+@mixin mobile{
+    @media (max-width: #{$width}){
+        @content
+    }
+}
 ;

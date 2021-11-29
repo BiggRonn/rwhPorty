@@ -1,6 +1,13 @@
+import { useState } from "react";
 import "./contact.scss"
 
 export default function Contact() {
+    const [message, setMessage] = useState(false)
+
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        setMessage(true);
+    }
     return (
         <div className = "contact" id = "contact">
             <div className="left">
@@ -9,10 +16,11 @@ export default function Contact() {
 
             <div className="right">
                 <h2>Contact</h2>
-                <form action="">
+                <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Email" />
                     <textarea placeholder="Message"></textarea>
                     <button type="submit">Send</button>
+                    {message && <span><h1>Thank you for your interest, I will reply ASAP.</h1> You can also message me on LinkedIn, and be sure to check out my Github!</span>}
                 </form>
             </div>
          

@@ -5,6 +5,11 @@
     background-color: white;
     display: flex;
 
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
     .left{
         flex: 0.5;
         display: flex;
@@ -23,11 +28,20 @@
             overflow: hidden;
             display: flex;
 
+           @include mobile{
+               align-items: flex-end;
+           }
+
             
             img{
                 height: 100%;
                 width: 100%;
                 bottom: 0;
+
+                @include mobile{
+                    height: 75%;
+
+                }
             }
         }
     }
@@ -44,11 +58,20 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+
+            @include mobile{
+                padding-left: 0;
+                align-items: center;
+            }
             
 
             h1{
                 font-size: 4rem;
                 margin: .75rem 0;
+
+                @include mobile{
+                    font-size: 1.8rem;
+                }
 
             }
             h2{
