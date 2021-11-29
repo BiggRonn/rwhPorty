@@ -15,7 +15,7 @@ export default function Intro() {
 
                 <h1>Wes Howard</h1>
                 <h2>Full Stack Developer</h2>
-                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt et, assumenda voluptatibus quia veritatis officiis quibusdam, maiores commodi vitae dolorem veniam ducimus accusantium obcaecati tempore tempora explicabo fugiat corporis.</article>
+                <article>Website built using React</article>
 
 
                 </div>
