@@ -1,13 +1,15 @@
 @import "../../global.scss";
 
 .portfolio {
-    background-color: $accent1;
+    background-color: $accent3;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     h1 {
-        font-size: 2.2rem;
+        font-size: 5rem;
+        font-weight: 600;
     }
 
     ul {
@@ -16,18 +18,7 @@
         list-style: none;
         display: flex;
 
-        li {
-            font-size: 1rem;
-            margin-right: 0.3rem;
-            padding: 0.75rem;
-            border-radius: 8px;
-            cursor: pointer;
-
-            &.active {
-                background-color: $maincolor;
-                color: $accent3;
-            }
-        }
+        
     }
 }
 
