@@ -2,17 +2,20 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "Dude, Where's My Charger?",
-        img: "../assets/EVcharger.jpg"
+        img: "../assets/EVcharger.jpg",
+        url:"https://dobinator.github.io/Dude-wheres-my-charger/"
 
     }, {
         id: 2,
         title: "Weather App",
-        img: "../assets/EVcharger.jpg"
+        img: "../assets/clouds.jpg",
+        url:"https://biggronn.github.io/WeatherCheck/"
     },
     {
         id: 3,
-        title: "Employee Backend",
-        img: "../assets/EVcharger.jpg"
+        title: "Employee Directory",
+        img: "../assets/Deployed1.png",
+        url: "https://stupefied-mayer-bdc170.netlify.app/"
     }
     
 ]
@@ -20,16 +23,42 @@ export const featuredPortfolio = [
 export const frontEndPortfolio = [
     {
         id: 1,
-        title: "FrontENDER",
-        img: "../assets/EVcharger.jpg"
+        title: "Placeholder",
+        img: "../assets/earth.jpg"
 
     },
     {
         id: 2,
+        title: "Placeholder",
+        img: "../assets/EVcharger.jpg"
+
+    },
+    {
+        id: 3,
+        title: "Placeholder",
+        img: "../assets/EVcharger.jpg"
+
+    },
+    {
+        id: 4,
+        title: "222",
+        img: "../assets/EVcharger.jpg"
+
+    },
+    {
+        id: 5,
+        title: "222",
+        img: "../assets/EVcharger.jpg"
+
+    },
+    {
+        id: 6,
         title: "222",
         img: "../assets/EVcharger.jpg"
 
     }
+
+    
 ]
 
 export const backEndPortfolio = [
@@ -67,6 +96,18 @@ export const miscPortfolio = [
     }, {
         id: 2,
         title: "4444",
+        img: "../assets/EVcharger.jpg"
+
+    },
+    {
+        id: 3,
+        title: "Employee Backend",
+        img: "../assets/EVcharger.jpg"
+
+    },
+    {
+        id: 3,
+        title: "Employee Backend",
         img: "../assets/EVcharger.jpg"
 
     },
