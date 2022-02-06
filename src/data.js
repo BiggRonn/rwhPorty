@@ -2,7 +2,7 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "WuwWug",
-        img: "../assets/wuwwug.png",
+        img: "../assets/WuwWug.PNG",
         url:"https://dobinator.github.io/Dude-wheres-my-charger/"
 
     }, {
@@ -91,20 +91,20 @@ export const miscPortfolio = [
     {
         id: 1,
         title: "Employee Directory",
-        img: "../assets/Deployed1 copy.png",
+        img: "../assets/Deployed1 copy.PNG",
         url: "https://stupefied-mayer-bdc170.netlify.app/"
 
     }, {
         id: 2,
         title: "Budget Tracker PWA",
-        img: "../assets/BudgetTrackerCS.png",
+        img: "../assets/BudgetTrackerCS.PNG",
         url: "https://budget-tracker-pwa-rwh.herokuapp.com/"
 
     },
     {
         id: 4,
         title: "Workout Tracker",
-        img: "../assets/workoutDashboard.png",
+        img: "../assets/workoutDashboard.PNG",
         url: "https://workout-tracker-rwh.herokuapp.com/"
 
     },
@@ -118,7 +118,7 @@ export const miscPortfolio = [
     {
         id: 6,
         title: "MVC Tech Blog",
-        img: "../assets/techblog.jpg",
+        img: "../assets/TechBlog.jpg",
         url: "https://warm-river-26748.herokuapp.com/"
 
     }

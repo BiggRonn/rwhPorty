@@ -43,7 +43,7 @@
 
     .item {
         width: 25%;
-        height: 40%;
+        height: clamp(200px, 40%, 40vh);
         border-radius: 15px;
         border: 1px solid $accent4;
         margin: 10px 20px;
