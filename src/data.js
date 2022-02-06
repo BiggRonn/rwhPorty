@@ -1,8 +1,8 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "Dude, Where's My Charger?",
-        img: "../assets/EVcharger.jpg",
+        title: "WuwWug",
+        img: "../assets/wuwwug.png",
         url:"https://dobinator.github.io/Dude-wheres-my-charger/"
 
     }, {
@@ -13,9 +13,9 @@ export const featuredPortfolio = [
     },
     {
         id: 3,
-        title: "Employee Directory",
-        img: "../assets/Deployed1.png",
-        url: "https://stupefied-mayer-bdc170.netlify.app/"
+        title: "Dude, Where's My Charger?",
+        img: "../assets/EVcharger.jpg",
+        url:"https://dobinator.github.io/Dude-wheres-my-charger/"
     }
     
 ]
@@ -90,31 +90,36 @@ export const backEndPortfolio = [
 export const miscPortfolio = [
     {
         id: 1,
-        title: "Miscellaneous Spelling",
-        img: "../assets/EVcharger.jpg"
+        title: "Employee Directory",
+        img: "../assets/Deployed1 copy.png",
+        url: "https://stupefied-mayer-bdc170.netlify.app/"
 
     }, {
         id: 2,
-        title: "4444",
-        img: "../assets/EVcharger.jpg"
+        title: "Budget Tracker PWA",
+        img: "../assets/BudgetTrackerCS.png",
+        url: "https://budget-tracker-pwa-rwh.herokuapp.com/"
 
     },
     {
-        id: 3,
-        title: "Employee Backend",
-        img: "../assets/EVcharger.jpg"
+        id: 4,
+        title: "Workout Tracker",
+        img: "../assets/workoutDashboard.png",
+        url: "https://workout-tracker-rwh.herokuapp.com/"
 
     },
     {
-        id: 3,
-        title: "Employee Backend",
-        img: "../assets/EVcharger.jpg"
+        id: 5,
+        title: "ECommerce Backend",
+        img: "../assets/commerce.jpg",
+        url: "https://github.com/BiggRonn/ECommerceBackEndRWH"
 
     },
     {
-        id: 3,
-        title: "Employee Backend",
-        img: "../assets/EVcharger.jpg"
+        id: 6,
+        title: "MVC Tech Blog",
+        img: "../assets/techblog.jpg",
+        url: "https://warm-river-26748.herokuapp.com/"
 
     }
 ]

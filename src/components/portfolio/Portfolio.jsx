@@ -18,14 +18,6 @@ export default function Portfolio() {
             title: "Featured"
         },
         {
-            id: "frontend",
-            title: "FrontEnd"
-        },
-        {
-            id: "backend",
-            title: "Backend"
-        },
-        {
             id: "miscProjects",
             title: "Misc. Projects"
         },

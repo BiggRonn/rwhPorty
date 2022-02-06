@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-console.log("IM HEREH! Line 6");
+
 
 ReactDOM.render(
   <React.StrictMode>
