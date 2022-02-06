@@ -104,14 +104,14 @@ export const miscPortfolio = [
     {
         id: 4,
         title: "Workout Tracker",
-        img: "../assets/workoutDashboard.PNG",
+        img: "../assets/WorkoutDashboard.PNG",
         url: "https://workout-tracker-rwh.herokuapp.com/"
 
     },
     {
         id: 5,
         title: "ECommerce Backend",
-        img: "../assets/commerce.jpg",
+        img: "../assets/Commerce.jpg",
         url: "https://github.com/BiggRonn/ECommerceBackEndRWH"
 
     },
