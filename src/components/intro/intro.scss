@@ -34,9 +34,10 @@
 
             
             img{
-                height: 100%;
-                width: 100%;
+                height: auto;
+                max-width: 100%;
                 bottom: 0;
+                cover: fit;
 
                 @include mobile{
                     height: 75%;
@@ -76,6 +77,9 @@
             }
             h2{
                 font-size: 2rem;
+                span{
+                    color: $accent2;
+                }
             }
 
             article{

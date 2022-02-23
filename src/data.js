@@ -12,10 +12,11 @@ export const featuredPortfolio = [
         url:"https://biggronn.github.io/WeatherCheck/"
     },
     {
-        id: 3,
-        title: "Dude, Where's My Charger?",
-        img: "../assets/EVcharger.jpg",
-        url:"https://dobinator.github.io/Dude-wheres-my-charger/"
+        id: 6,
+        title: "MVC Tech Blog",
+        img: "../assets/TechBlog.jpg",
+        url: "https://warm-river-26748.herokuapp.com/"
+
     }
     
 ]
@@ -114,12 +115,6 @@ export const miscPortfolio = [
         img: "../assets/Commerce.jpg",
         url: "https://github.com/BiggRonn/ECommerceBackEndRWH"
 
-    },
-    {
-        id: 6,
-        title: "MVC Tech Blog",
-        img: "../assets/TechBlog.jpg",
-        url: "https://warm-river-26748.herokuapp.com/"
-
     }
+    
 ]
