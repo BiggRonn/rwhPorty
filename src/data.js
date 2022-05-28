@@ -3,7 +3,7 @@ export const featuredPortfolio = [
         id: 1,
         title: "WuwWug",
         img: "../assets/WuwWug.PNG",
-        url:"https://dobinator.github.io/Dude-wheres-my-charger/"
+        url:"https://wuwwug-b2656.web.app"
 
     }, {
         id: 2,
