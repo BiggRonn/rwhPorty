@@ -25,7 +25,6 @@ export default function Intro() {
                 <h1>Wes Howard</h1>
                 <h2>Full Stack Developer - <span ref ={skillsRef}></span> </h2>
                 <article>Passionate about coding and problem solving, trying to learn something new every day. This website was built using React. Checkout my Github and message me on LinkedIn!</article>
-                
 
 
                 </div>
