@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .portfolio {
-    background-color: $accent3;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,8 +42,8 @@
     }
 
     .item {
-        width: 25%;
-        height: clamp(200px, 40%, 40vh);
+        width: 30%;
+        height: clamp(350px, 30%, 40vh);
         border-radius: 15px;
         border: 1px solid $accent4;
         margin: 10px 20px;

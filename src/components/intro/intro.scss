@@ -2,7 +2,7 @@
 
 .intro{
     
-    background-color: white;
+    
     display: flex;
 
     @include mobile{
@@ -18,11 +18,11 @@
         overflow: hidden;
        
         
-        background-color: white;
+        
         
         .imgContainer{
-            width: 600px;
-            height: 800px;
+            width: 450px;
+            height: 600px;
             background-color: $maincolor;
             border-radius: 100%;
             overflow: hidden;
@@ -48,11 +48,14 @@
     }
     .right{
         flex: 0.5;
-        background-color: white;
+        
         align-items: center;
         justify-content: center;
 
         .wrapper{
+            background-color: $accent3;
+           
+            border-bottom-left-radius: 20%;
             width: 100%;
             height: 100%;
             padding-left: 1.75rem;

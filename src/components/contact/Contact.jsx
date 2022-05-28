@@ -16,11 +16,11 @@ export default function Contact() {
 
             <div className="right">
                 <h2>Contact</h2>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} action="mailto:ronaldwesleyhoward@gmail.com">
                     <input type="text" placeholder="Email" />
                     <textarea placeholder="Message"></textarea>
                     <button type="submit">Send</button>
-                    {message && <span>Thank you for your interest, I will reply ASAP. Please message me on LinkedIn as well!</span>}
+                    {message && <span>Thank you for your interest, an email has been sent to my account and I will respond quickly! Please message me on LinkedIn as well!</span>}
                 </form>
             </div>
          
